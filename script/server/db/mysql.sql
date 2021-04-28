@@ -53,4 +53,4 @@ CREATE TABLE IF NOT EXISTS `lock_table`
     PRIMARY KEY (`row_key`),
     KEY `idx_branch_id` (`branch_id`)
 ) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8;
+  DEFAULT CHARSET = gbk;
